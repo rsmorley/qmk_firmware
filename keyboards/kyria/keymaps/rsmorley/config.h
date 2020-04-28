@@ -29,6 +29,8 @@
   #define RGBLIGHT_VAL_STEP 8
 #endif
 
+#define ENCODER_DIRECTION_FLIP
+#define ENCODER_RESOLUTION 2
 // If you are using an Elite C rev3 on the slave side, uncomment the lines below:
 // #define SPLIT_USB_DETECT
 // #define NO_USB_STARTUP_CHECK
