@@ -15,10 +15,6 @@
  */
 #include QMK_KEYBOARD_H
 
-#ifdef OLED_DRIVER_ENABLE
-
-#endif
-
 // used by encoders
 uint16_t encoder_timeout = 1000;
 bool is_cmd_tab_active = false;
