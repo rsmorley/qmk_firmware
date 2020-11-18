@@ -259,11 +259,11 @@ void encoder_update_user(uint8_t index, bool clockwise) {
             break;
         case _NUM_SCHAR:
             if (index == 0) {
-                // Volume control
+                // scroll by word
                 if (clockwise) {
-                    tap_code(KC_VOLU);
+                    tap_code16(A(KC_RIGHT));
                 } else {
-                    tap_code(KC_VOLD);
+                    tap_code16(A(KC_LEFT));
                 }
             } else if (index == 1) {
                 // Tabbing between apps
